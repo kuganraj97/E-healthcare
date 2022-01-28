@@ -1,0 +1,8 @@
+#footer {
+	clear: both;
+	color: #ffffff;
+	font-family: Georgia;
+}
+	#footer p {
+		line-height: 1.5em;
+	}

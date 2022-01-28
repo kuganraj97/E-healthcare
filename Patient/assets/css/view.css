@@ -1,0 +1,23 @@
+table{
+    width: 88%;
+    border-collapse: collapse;
+	border: 0px solid black;
+    padding: 5px;
+	font-size: 23px;
+    text-align: center;
+}
+
+th{
+border: 4px solid black;
+	background-color: rgb(12, 176, 255);
+    color: grey;
+	text-align:center;
+    padding: 5px;
+}
+tr,td{
+	border: 4px solid black;
+	background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,136 @@
+input[type=text], input[type=password], input[type=email] ,input[type=date], input[type=number]  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit]
+{
+	border-radius:12px;
+    background-color: rgb(12, 176, 255);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+option{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+	border-radius:12px;
+    background-color: rgb(12, 176, 255);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    border-radius:12px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.signupbtn{
+	border-radius:12px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.container {
+    padding: 16px;
+}
+.sucontainer{
+	padding: 12px;
+	position:absolute;
+	left:30%;
+	right:30%;
+	top: 20%;
+    bottom: 5%;
+	border:2px solid white;
+	border-collapse:collapse;
+	background:rgb(12, 176, 255);
+}
+.dispcontainer{
+	padding: 12px;
+	position:bottom;
+	left:30%;
+	right:30%;
+	bottom: 8%;
+	top:12%;
+	border:2px solid white;
+	border-collapse:collapse;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
